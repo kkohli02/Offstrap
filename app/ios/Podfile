@@ -1,0 +1,90 @@
+# Resolve react_native_pods.rb with node to allow for hoisting
+require Pod::Executable.execute_command(
+  'node',
+  [
+    '-p',
+    'require.resolve("react-native/scripts/react_native_pods.rb", {paths: [process.argv[1]]})',
+    __dir__
+  ]
+).strip
+
+platform :ios, '15.1'
+prepare_react_native_project!
+
+# Static frameworks + modular headers
+use_frameworks! :linkage => :static
+use_modular_headers!
+
+target 'offstapConnect' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+
+  # ---- react-native-maps (Google provider) ----
+  rn_maps_path = File.expand_path('../node_modules/react-native-maps', __dir__)
+  pod 'react-native-google-maps', :path => rn_maps_path   # supplies RNMapsGoogle* classes
+  pod 'GoogleMaps'                                        # iOS Maps SDK
+  pod 'Google-Maps-iOS-Utils'                             # optional utils                             # (optional) clustering/utils
+
+  # Keep these to play nice with Firebase / Swift modules
+  pod 'gRPC-C++',       :modular_headers => true
+  pod 'gRPC-Core',      :modular_headers => true
+  pod 'BoringSSL-GRPC', :modular_headers => true
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+
+  post_install do |installer|
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false
+    )
+
+    # Ensure all pods target iOS 15.1
+    installer.pods_project.targets.each do |t|
+      t.build_configurations.each do |bc|
+        bc.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
+      end
+    end
+
+    # ---- gRPC modulemap workaround ----
+    require 'fileutils'
+    begin
+      headers_root = File.join(installer.sandbox.root, 'Headers')
+      private_grpc = File.join(headers_root, 'Private', 'grpc')
+      FileUtils.mkdir_p(private_grpc) unless File.directory?(private_grpc)
+
+      patterns = [
+        File.join(headers_root, 'Public', 'gRPC-Core', '**', '*.modulemap'),
+        File.join(headers_root, 'Public', 'grpc',      '**', '*.modulemap'),
+        File.join(headers_root, 'Public', 'gRPC-C++',  '**', '*.modulemap'),
+        File.join(headers_root, 'Public', 'grpcpp',    '**', '*.modulemap'),
+        File.join(headers_root, 'Public', 'openssl_grpc', '**', '*.modulemap')
+      ]
+      Dir.glob(patterns).each { |mm| FileUtils.cp(mm, private_grpc) rescue nil }
+    rescue => e
+      Pod::UI.warn "gRPC modulemap workaround skipped: #{e}"
+    end
+
+    # ---- Remove flaky "Create Symlinks to Header Folders" script everywhere ----
+    def remove_symlink_script_from_target(target)
+      target.build_phases.select do |phase|
+        phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) &&
+        phase.name&.include?('Create Symlinks to Header Folders')
+      end.each { |phase| target.build_phases.delete(phase) }
+    end
+
+    # From user projects
+    installer.aggregate_targets.each do |agg|
+      agg.user_project.native_targets.each { |nt| remove_symlink_script_from_target(nt) }
+      agg.user_project.save
+    end
+
+    # From Pods project
+    installer.pods_project.targets.each { |t| remove_symlink_script_from_target(t) }
+    installer.pods_project.save
+  end
+end

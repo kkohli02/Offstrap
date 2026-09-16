@@ -1,0 +1,307 @@
+{
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your Preferences & Bag Options",
+
+    "general": "General",
+    "account": "Account",
+    "about": "About",
+    "appSecurity": "App Security",
+
+    "modes": "Modes",
+    "travelMode": "Travel Mode",
+    "lostMode": "Lost Mode",
+
+    "preferences": "Preferences",
+    "fingerprintManager": "Fingerprint Manager",
+    "smartDisplay": "Smart Display",
+    "notifications": "Notifications",
+    "languages": "Languages",
+
+    "session": "Session",
+    "logout": "Logout",
+
+    "notConnectedTitle": "Not Connected",
+    "notConnectedBody": "Make Sure your OffStrap is nearby, and Try Again.",
+    "cmdFailedTitle": "Command Failed",
+    "cmdFailedBody": "Failed to send command to device.",
+
+    "confirmSignOutTitle": "Confirm Sign Out",
+    "confirmSignOutBody": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "signOut": "Sign Out",
+
+    "lostModeOn": "Lost mode has been activated on your bag.",
+    "lostModeOff": "Lost mode has been deactivated.",
+
+    "fingerprintStartedTitle": "Fingerprint",
+    "fingerprintStartedBody": "Fingerprint enrollment has started on your bag.",
+    "requireFaceId": "Require Face ID",
+    "turnOffTitle": "Turn Off Face ID?",
+    "turnOffBody": "Disabling Face ID will remove biometric protection for your app.",
+    "turnOff": "Turn Off",
+    "fingerprintSuccessTitle": "Success",
+    "fingerprintSuccessBody": "Fingerprint registered successfully."
+  },
+
+  "languages": {
+    "title": "Languages",
+    "subtitle": "Choose your preferred language",
+    "choose": "Choose Language",
+    "savedHint": "(Saved on this device. We’ll wire it to the whole app later.)"
+  },
+
+  "fingerprintManager": {
+    "title": "Fingerprint Manager",
+    "emptyTitle": "No fingerprint saved",
+    "emptyBody": "Add a fingerprint to unlock your OffStrap.",
+    "addFingerprint": "Add a Fingerprint",
+
+    "fingerLabel": "Finger 1",
+    "rename": "Rename",
+    "delete": "Delete",
+
+    "renameTitle": "Rename finger",
+    "renameBody": "Set a friendly name for this fingerprint.",
+    "namePlaceholder": "e.g., Right Thumb",
+    "save": "Save",
+
+    "confirmDeleteTitle": "Delete fingerprint?",
+    "confirmDeleteBody": "This will erase the saved fingerprint from your bag.",
+    "confirm": "Delete",
+    "cancel": "Cancel",
+
+    "toastRenamed": "Name updated",
+    "toastDeleted": "Fingerprint deleted"
+  },
+  "smartDisplay": {
+  "title": "Smart Display",
+  "subtitle": "Customize your E-Ink display",
+
+  "modeTitle": "Choose What to Show",
+  "showLogo": "Show Logo",
+  "showText": "Show Personalised Text",
+  "showImage": "Show Image",
+  "leaveBlank": "Leave Blank",
+
+  "enterText": "Enter Display Text",
+  "placeholder": "Type your message...",
+  "preview": "Preview",
+  "previewHint": "Your Message Will Appear Here",
+  "previewImageHint": "Your Image Will Appear Here",
+
+  "chooseImage": "Choose Image",
+  "chooseImageBtn": "Choose Image",
+
+  "updateBtn": "Update Display",
+
+  "requiredTitle": "Text required",
+  "requiredBody": "Please enter some text to display.",
+
+  "savedTitle": "Updated",
+  "savedBody": "Your display has been updated.",
+
+  "errorTitle": "Update failed",
+  "errorBody": "Please try again.",
+
+  "alreadyAppliedHint": "No changes detected — press Update to re-send to your OffStrap.",
+
+  "limitHint": "Max length = 50 characters"
+},
+
+  "dashboard": {
+    "network": "Network",
+    "noSignal": "• No signal",
+    "bluetooth": "Bluetooth",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "track": "Track",
+    "alarm": "Alarm",
+    "alarmOff": "Alarm Off",
+    "bagHub": "Bag Hub",
+    "settings": "Settings",
+
+    "connectingTitle": "Connecting…",
+    "connectingBody": "Attaching to your bag; please retry in a moment.",
+    "notConnectedTitle": "Not Connected",
+    "notConnectedBody": "Make Sure your OffStrap is nearby, and Try Again.",
+    "cmdFailedTitle": "Command Failed",
+    "cmdFailedBody": "Failed to send command to device."
+  },
+
+
+  "account": {
+  "title": "Account",
+  "subtitle": "Manage your profile & sign-in",
+
+  "profile": "Profile",
+  "firstName": "First Name",
+  "firstNamePlaceholder": "Enter your name",
+
+  "lastName": "Last Name",
+  "lastNamePlaceholder": "Enter your last name",
+
+  "phone": "Phone",
+  "phonePlaceholder": "Phone number",
+
+  "linkedSignin": "Linked Sign-in",
+  "tapToSwitch": "Tap to switch (demo)",
+
+  "saveChanges": "Save Changes",
+  "savedTitle": "Saved",
+  "savedBody": "Your profile has been updated.",
+  "errorTitle": "Error",
+  "errorBody": "Failed to save your changes. Please try again."
+},
+
+  "about": {
+    "title": "About",
+    "subtitle": "Learn about OffStrap",
+
+    "applicationDetails": "Application Details",
+    "appNameLabel": "Application Name",
+    "appName": "OffStrap Connect",
+    "appVersionLabel": "App Version",
+    "appVersion": "1.3",
+    "hwVersionLabel": "Hardware Version",
+    "hwVersion": "Trail Series 1.0",
+    "releaseDateLabel": "Release Date",
+    "releaseDate": "July 2025",
+    "developerLabel": "Developer",
+    "developer": "Smart Strap Technologies Pvt. Ltd.",
+    "officialContactLabel": "Official Contact",
+    "officialContact": "info@offstrap.com",
+
+    "systemOverview": "System Overview",
+    "systemOverviewP1": "OffStrap Connect is the official companion app for the OffStrap line of smart travel gear. It establishes a secure Bluetooth and LTE link to OffStrap-certified luggage, giving you reliable control, real-time monitoring, and advanced protection for your belongings.",
+    "systemOverviewP2": "The app is designed exclusively for authorized OffStrap hardware. Attempts to connect with unsupported devices, reverse engineer software, or tamper with firmware or hardware are prohibited and will void warranty and service eligibility.",
+
+    "keyFeatures": "Key Features (v1.3)",
+    "featSmartUnlockingTitle": "Smart Unlocking",
+    "featSmartUnlockingBody": "• Unlock from the app\n• Fingerprint access via the bag's integrated sensor",
+    "featLocationTitle": "Location & Proximity",
+    "featLocationBody": "• Live GPS tracking via onboard SIM module\n• Bluetooth proximity alerts\n• Lost Mode with higher-frequency pings\n• Quick “Track” action to retrieve immediate location",
+    "featTravelModeTitle": "Travel Mode",
+    "featTravelModeBody": "• Optimizes connectivity and power usage while in transit\n• Temporarily disables all radio-emitting modules, such as the cellular network, for safe use during flights.",
+    "featSecurityTitle": "Security & Alerts",
+    "featSecurityBody": "• App access control via biometrics or passcode\n• Auto-lock after inactivity\n• Notifications for tamper events, low battery, and unusual activity",
+    "featNotificationsTitle": "Notifications Management",
+    "featNotificationsBody": "• Enable/disable categories of alerts\n• Set custom alert thresholds for battery level, tamper attempts, and bluetooth proximity.",
+
+    "customerSupport": "Customer Support",
+    "supportP1": "Need help setting up your bag, reporting a bug, or troubleshooting connectivity? Our team is here to help.",
+    "supportEmailLabel": "Email",
+    "supportSlaLabel": "Typical Response Time",
+    "supportSla": "Within 24 business hours",
+
+    "disclaimer": "Disclaimer of Liability",
+    "disclaimerP1": "OffStrap Connect is designed to enhance the security and usability of your luggage. While the app provides monitoring and deterrence features, no system can guarantee prevention of theft, unauthorized access, or data loss.",
+    "disclaimerP2": "Smart Strap Technologies Pvt. Ltd. is not liable for loss, damage, or theft of bags or personal property. Misuse of the hardware or software, including tampering, force unlocking, or unauthorized firmware modification will void warranty coverage and service commitments.",
+    "disclaimerP3": "The app may use GPS and Bluetooth in the background. Force Closing the app can cause the OffStrap to assume a worst case scenario, and will hence impact OffStrap's battery life. We only collect the minimum data required for pairing and essential diagnostics. For details, please see our Privacy Policy.",
+
+    "license": "License & Intellectual Property",
+    "licenseBody": "All application content, including UI, icons, firmware protocols, and connectivity architecture is the intellectual property of Smart Strap Technologies Pvt. Ltd. Unauthorized copying, distribution, or reverse engineering is prohibited.",
+
+    "updates": "Updates",
+    "updatesBody": "We ship regular updates to improve performance and add features. For the best experience, keep both your app and bag firmware up to date."
+  },
+
+  "security": {
+    "title": "App Security",
+    "subtitle": "Lock the app with {{method}}",
+
+    "cardTitle": "App Lock",
+    "require": "Require {{method}}",
+
+    "unavailableTitle": "Unavailable",
+    "unavailableBody": "Biometric authentication is not available on this device.",
+
+    "enabledTitle": "App Lock",
+    "enabledBody": "{{method}} enabled. You’ll be prompted on launch/return.",
+
+    "turnOffTitle": "Turn off App Lock?",
+    "turnOffBody": "You will not be prompted on launch.",
+    "cancel": "Cancel",
+    "turnOff": "Turn Off",
+
+    "hint": "When enabled, the app asks for {{method}} on launch and when returning from background."
+  },
+
+  "fpManager": {
+    "title": "Fingerprint Manager",
+    "subtitle": "Rename or delete your enrolled finger. If none exists, add one.",
+    "defaultFingerName": "Finger 1",
+
+    "add": "Add a fingerprint",
+    "rename": "Rename",
+    "delete": "Delete",
+
+    "confirmDeleteTitle": "Delete Fingerprint",
+    "confirmDeleteBody": "This will remove the enrolled fingerprint from the bag. Continue?",
+    "confirm": "Delete",
+    "cancel": "Cancel",
+
+    "doneTitle": "Deleted",
+    "deletedBody": "Fingerprint has been Deleted.",
+
+    "renameTitle": "Rename Finger",
+    "enterName": "Enter a name",
+    "save": "Save",
+
+    "notConnectedTitle": "Not Connected",
+    "notConnectedBody": "Make Sure your OffStrap is nearby, and Try Again.",
+    "cmdFailedTitle": "Command Failed",
+    "cmdFailedBody": "Failed to send command to device."
+  },
+
+  "notifications": {
+  "title": "Notifications",
+  "subtitle": "Configure alerts & mutes",
+
+  "alertPrefs": "Alert Preferences",
+
+  "notifyBleDisconnect": "Notify when Bluetooth Disconnects",
+  "notifyBleDisconnectSub": "Get an alert if your phone loses connection to OffStrap", 
+
+  "bleDelay": "Notify after",
+  "bleDelaySub": "How long to wait before alerting you after a disconnect",
+
+  "tamperThreshold": "Tamper Alert Threshold",
+  "tamperThresholdSub": "Notify when fingerprint mismatches reach this number",
+
+  "muteTitle": "Mute Notifications",
+  "mute": {
+    "8h": "8 Hours",
+    "24h": "24 Hours",
+    "1 week": "1 Week"
+  },
+
+  "tamperOptions": {
+    "3": "3 mismatches",
+    "5": "5 mismatches",
+    "10": "10 mismatches"
+  },
+
+  "savedTitle": "Saved",
+  "savedBody": "Your notification preferences have been saved.",
+  "nearBagTitle": "OffStrap not nearby",
+  "nearBagBody": "Changes were saved, but pushing them to your OffStrap requires you to be near it with Bluetooth connected.",
+  "saveErrorTitle": "Couldn’t save",
+  "saveErrorBody": "Please try again.",
+
+  "bleTitle": "Bluetooth Disconnected",
+  "bleBody": "Your phone lost connection to your OffStrap.",
+  "tamperTitle": "Tamper warning",
+  "tamperBody": "Multiple failed fingerprint attempts detected.",
+
+  "testNow": "Send test notification"
+},
+  "bagHub": {
+    "title": "Bag Hub",
+    "subtitle": "Manage your Connected Bags",
+    "addOffstrap": "Add an Offstrap"
+  }
+}

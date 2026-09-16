@@ -1,0 +1,309 @@
+{
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Gérez vos préférences et options du bagage",
+
+    "general": "Général",
+    "account": "Compte",
+    "about": "À propos",
+    "appSecurity": "Sécurité de l’app",
+
+    "modes": "Modes",
+    "travelMode": "Mode Voyage",
+    "lostMode": "Mode Perdu",
+
+    "preferences": "Préférences",
+    "fingerprintManager": "Gestion des empreintes",
+    "smartDisplay": "Affichage intelligent",
+    "notifications": "Notifications",
+    "languages": "Langues",
+
+    "session": "Session",
+    "logout": "Se déconnecter",
+
+    "notConnectedTitle": "Non connecté",
+    "notConnectedBody": "Veuillez d’abord connecter votre bagage.",
+    "cmdFailedTitle": "Commande échouée",
+    "cmdFailedBody": "Échec de l’envoi de la commande à l’appareil.",
+
+    "confirmSignOutTitle": "Confirmer la déconnexion",
+    "confirmSignOutBody": "Voulez-vous vraiment vous déconnecter ?",
+    "cancel": "Annuler",
+    "signOut": "Se déconnecter",
+
+    "lostModeOn": "Le mode Perdu a été activé sur votre bagage.",
+    "lostModeOff": "Le mode Perdu a été désactivé.",
+
+    "fingerprintStartedTitle": "Empreinte",
+    "fingerprintStartedBody": "L’enrôlement d’empreinte a démarré sur votre bagage.",
+    "requireFaceId": "Exiger Face ID",
+    "turnOffTitle": "Désactiver Face ID ?",
+    "turnOffBody": "La désactivation de Face ID supprimera la protection biométrique de votre application.",
+    "turnOff": "Désactiver",
+    "fingerprintSuccessTitle": "Succès",
+    "fingerprintSuccessBody": "Empreinte digitale enregistrée avec succès."
+
+  },
+
+  "languages": {
+    "title": "Langues",
+    "subtitle": "Choisissez votre langue préférée",
+    "choose": "Choisir la langue",
+    "savedHint": "(Enregistré sur cet appareil. Nous l’appliquerons au reste de l’app plus tard.)"
+  },
+
+  "fingerprintManager": {
+    "title": "Gestion des empreintes",
+    "emptyTitle": "Aucune empreinte enregistrée",
+    "emptyBody": "Ajoutez une empreinte pour déverrouiller votre bagage plus rapidement.",
+    "addFingerprint": "Ajouter une empreinte",
+
+    "fingerLabel": "Doigt 1",
+    "rename": "Renommer",
+    "delete": "Supprimer",
+
+    "renameTitle": "Renommer le doigt",
+    "renameBody": "Attribuez un nom convivial à cette empreinte.",
+    "namePlaceholder": "ex. : Pouce droit",
+    "save": "Enregistrer",
+
+    "confirmDeleteTitle": "Supprimer l’empreinte ?",
+    "confirmDeleteBody": "Cela supprimera l’empreinte enregistrée de votre bagage.",
+    "confirm": "Supprimer",
+    "cancel": "Annuler",
+
+    "toastRenamed": "Nom mis à jour",
+    "toastDeleted": "Empreinte supprimée"
+  },
+
+  "smartDisplay": {
+    "title": "Affichage intelligent",
+    "subtitle": "Personnalisez l’écran e-ink de votre bagage",
+
+    "modeTitle": "Choisir ce qui s’affiche",
+    "showLogo": "Afficher le logo",
+    "showText": "Afficher un texte personnalisé",
+    "showImage": "Afficher une image",
+    "leaveBlank": "Laisser vide",
+
+    "enterText": "Saisir le texte à afficher",
+    "placeholder": "Tapez votre message…",
+    "preview": "Aperçu",
+    "previewHint": "Votre message apparaîtra ici",
+    "previewImageHint": "Votre image apparaîtra ici",
+
+    "chooseImage": "Choisir une image",
+    "chooseImageBtn": "Choisir une image",
+
+    "updateBtn": "Mettre à jour l’affichage",
+
+    "requiredTitle": "Texte requis",
+    "requiredBody": "Veuillez saisir un texte à afficher.",
+
+    "savedTitle": "Mis à jour",
+    "savedBody": "L’affichage a été mis à jour.",
+
+    "errorTitle": "Échec de la mise à jour",
+    "errorBody": "Veuillez réessayer.",
+
+    "alreadyAppliedHint": "Aucun changement détecté — appuyez sur Mettre à jour pour renvoyer à votre OffStrap.",
+
+    "limitHint": "Longueur max = 50 caractères"
+  },
+
+  "dashboard": {
+    "network": "Réseau",
+    "noSignal": "• Pas de signal",
+    "bluetooth": "Bluetooth",
+    "connected": "Connecté",
+    "disconnected": "Déconnecté",
+
+    "locked": "Verrouillé",
+    "unlocked": "Déverrouillé",
+    "track": "Localiser",
+    "alarm": "Alarme",
+    "alarmOff": "Arrêter l’alarme",
+    "bagHub": "Hub du bagage",
+    "settings": "Paramètres",
+
+    "connectingTitle": "Connexion…",
+    "connectingBody": "Connexion à votre bagage ; réessayez dans un instant, s’il vous plaît.",
+    "notConnectedTitle": "Non connecté",
+    "notConnectedBody": "Veuillez d’abord connecter votre bagage.",
+    "cmdFailedTitle": "Commande échouée",
+    "cmdFailedBody": "Échec de l’envoi de la commande à l’appareil."
+  },
+
+  "account": {
+    "title": "Compte",
+    "subtitle": "Gérez votre profil et la connexion",
+
+    "profile": "Profil",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Entrez votre prénom",
+
+    "lastName": "Nom",
+    "lastNamePlaceholder": "Entrez votre nom",
+
+    "phone": "Téléphone",
+    "phonePlaceholder": "Numéro de téléphone",
+
+    "linkedSignin": "Connexion liée",
+    "tapToSwitch": "Touchez pour changer (démo)",
+
+    "saveChanges": "Enregistrer les modifications",
+    "savedTitle": "Enregistré",
+    "savedBody": "Votre profil a été mis à jour.",
+    "errorTitle": "Erreur",
+    "errorBody": "Échec de l’enregistrement des modifications. Veuillez réessayer."
+  },
+
+  "about": {
+    "title": "À propos",
+    "subtitle": "En savoir plus sur OffStrap",
+
+    "applicationDetails": "Détails de l’application",
+    "appNameLabel": "Nom de l’application",
+    "appName": "OffStrap Connect",
+    "appVersionLabel": "Version de l’app",
+    "appVersion": "1.3",
+    "hwVersionLabel": "Version matérielle",
+    "hwVersion": "Trail Series 1.0",
+    "releaseDateLabel": "Date de sortie",
+    "releaseDate": "Juillet 2025",
+    "developerLabel": "Développeur",
+    "developer": "Smart Strap Technologies Pvt. Ltd.",
+    "officialContactLabel": "Contact officiel",
+    "officialContact": "info@offstrap.com",
+
+    "systemOverview": "Aperçu du système",
+    "systemOverviewP1": "OffStrap Connect est l’application compagnon officielle de la gamme de bagages intelligents OffStrap. Elle établit une liaison Bluetooth et LTE sécurisée avec les valises certifiées OffStrap pour vous offrir un contrôle fiable, un suivi en temps réel et une protection avancée de vos effets personnels.",
+    "systemOverviewP2": "L’application est conçue exclusivement pour le matériel OffStrap autorisé. Toute tentative de connexion avec des appareils non pris en charge, d’ingénierie inverse ou de modification du firmware/matériel est interdite et annule la garantie ainsi que l’éligibilité au service.",
+
+    "keyFeatures": "Fonctionnalités clés (v1.3)",
+    "featSmartUnlockingTitle": "Déverrouillage intelligent",
+    "featSmartUnlockingBody": "• Déverrouillage via l’app\n• Accès par empreinte via le capteur intégré au bagage",
+    "featLocationTitle": "Localisation & proximité",
+    "featLocationBody": "• Suivi GPS en direct via le module SIM intégré\n• Alertes de proximité Bluetooth\n• Mode Perdu avec pings plus fréquents\n• Action « Localiser » pour obtenir la position immédiate",
+    "featTravelModeTitle": "Mode Voyage",
+    "featTravelModeBody": "• Optimise la connectivité et la consommation en déplacement\n• Désactive temporairement les capteurs non essentiels lors des longs trajets",
+    "featSecurityTitle": "Sécurité & alertes",
+    "featSecurityBody": "• Contrôle d’accès à l’app par biométrie ou code\n• Verrouillage automatique en cas d’inactivité\n• Notifications pour effraction, batterie faible et activité inhabituelle",
+    "featNotificationsTitle": "Gestion des notifications",
+    "featNotificationsBody": "• Activer/désactiver des catégories d’alertes\n• Définir des seuils pour batterie, localisation et déverrouillage",
+
+    "customerSupport": "Support client",
+    "supportP1": "Besoin d’aide pour configurer votre bagage, signaler un bug ou dépanner la connectivité ? Notre équipe est là pour vous.",
+    "supportEmailLabel": "E-mail",
+    "supportSlaLabel": "Délai de réponse typique",
+    "supportSla": "Sous 24 h ouvrées",
+
+    "disclaimer": "Clause de non-responsabilité",
+    "disclaimerP1": "OffStrap Connect est conçue pour améliorer la sécurité et l’usage de votre bagage. Bien que l’app fournisse des fonctions de suivi et de dissuasion, aucun système ne peut garantir l’absence de vol, d’accès non autorisé ou de perte de données.",
+    "disclaimerP2": "Smart Strap Technologies Pvt. Ltd. n’est pas responsable des pertes, dommages ou vols des bagages ou biens personnels. L’usage abusif du matériel/logiciel, le forçage ou toute modification non autorisée du firmware annulent la garantie et l’engagement de service.",
+    "disclaimerP3": "L’app peut utiliser le GPS et le Bluetooth en arrière-plan. Une utilisation continue peut affecter la batterie du téléphone et du bagage. Nous ne collectons que les données minimales nécessaires à l’appairage et au diagnostic essentiel. Voir notre politique de confidentialité pour plus de détails.",
+
+    "license": "Licence & propriété intellectuelle",
+    "licenseBody": "Tout le contenu de l’app, y compris l’UI, les icônes, les protocoles firmware et l’architecture de connectivité, est la propriété intellectuelle de Smart Strap Technologies Pvt. Ltd. Toute copie, distribution ou ingénierie inverse non autorisée est interdite.",
+
+    "updates": "Mises à jour",
+    "updatesBody": "Nous publions régulièrement des mises à jour pour améliorer les performances et ajouter des fonctionnalités. Pour la meilleure expérience, gardez l’app et le firmware du bagage à jour."
+  },
+
+  "security": {
+    "title": "Sécurité de l’app",
+    "subtitle": "Verrouillez l’app avec {{method}}",
+
+    "cardTitle": "Verrouillage de l’app",
+    "require": "Exiger {{method}}",
+
+    "unavailableTitle": "Indisponible",
+    "unavailableBody": "L’authentification biométrique n’est pas disponible sur cet appareil.",
+
+    "enabledTitle": "Verrouillage de l’app",
+    "enabledBody": "{{method}} activé. Vous serez sollicité au lancement/retour.",
+
+    "turnOffTitle": "Désactiver le verrouillage de l’app ?",
+    "turnOffBody": "Vous ne serez plus sollicité au lancement.",
+    "cancel": "Annuler",
+    "turnOff": "Désactiver",
+
+    "hint": "Lorsque c’est activé, l’app demande {{method}} au lancement et au retour depuis l’arrière-plan."
+  },
+
+  "fpManager": {
+    "title": "Gestion des empreintes",
+    "subtitle": "Renommez ou supprimez votre doigt enregistré. S’il n’y en a pas, ajoutez-en un.",
+    "defaultFingerName": "Doigt 1",
+
+    "add": "Ajouter une empreinte",
+    "rename": "Renommer",
+    "delete": "Supprimer",
+
+    "confirmDeleteTitle": "Supprimer l’empreinte",
+    "confirmDeleteBody": "Cela retirera l’empreinte enregistrée du bagage. Continuer ?",
+    "confirm": "Supprimer",
+    "cancel": "Annuler",
+
+    "doneTitle": "Supprimé",
+    "deletedBody": "L’empreinte a été supprimée.",
+
+    "renameTitle": "Renommer le doigt",
+    "enterName": "Saisir un nom",
+    "save": "Enregistrer",
+
+    "notConnectedTitle": "Non connecté",
+    "notConnectedBody": "Veuillez d’abord connecter votre bagage.",
+    "cmdFailedTitle": "Commande échouée",
+    "cmdFailedBody": "Échec de l’envoi de la commande à l’appareil."
+  },
+
+  "notifications": {
+  "title": "Notifications",
+  "subtitle": "Configurer les alertes et les silences",
+
+  "alertPrefs": "Préférences d’alerte",
+
+  "notifyBleDisconnect": "Notifier en cas de déconnexion Bluetooth",
+  "notifyBleDisconnectSub": "Recevez une alerte si votre téléphone perd la connexion avec OffStrap",
+
+  "bleDelay": "Notifier après",
+  "bleDelaySub": "Temps d’attente avant de vous alerter après une déconnexion",
+
+  "tamperThreshold": "Seuil d’alerte de falsification",
+  "tamperThresholdSub": "Notifier lorsque les échecs d’empreintes digitales atteignent ce nombre",
+
+  "muteTitle": "Couper les notifications",
+  "mute": {
+    "8h": "8 heures",
+    "24h": "24 heures",
+    "1 week": "1 semaine"
+  },
+
+  "tamperOptions": {
+    "3": "3 échecs",
+    "5": "5 échecs",
+    "10": "10 échecs"
+  },
+
+  "savedTitle": "Enregistré",
+  "savedBody": "Vos préférences de notification ont été enregistrées.",
+  "nearBagTitle": "OffStrap non à proximité",
+  "nearBagBody": "Les changements ont été enregistrés, mais nécessitent une connexion Bluetooth proche pour être appliqués à votre OffStrap.",
+  "saveErrorTitle": "Impossible d’enregistrer",
+  "saveErrorBody": "Veuillez réessayer.",
+
+  "bleTitle": "Bluetooth déconnecté",
+  "bleBody": "Votre téléphone a perdu la connexion avec OffStrap.",
+  "tamperTitle": "Alerte de falsification",
+  "tamperBody": "Plusieurs tentatives d’empreinte digitale échouées détectées.",
+
+  "testNow": "Envoyer une notification test"
+},
+
+  "bagHub": {
+    "title": "Hub du bagage",
+    "subtitle": "Gérez vos bagages connectés",
+    "addOffstrap": "Ajouter un OffStrap"
+  }
+}

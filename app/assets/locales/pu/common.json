@@ -1,0 +1,306 @@
+{
+  "settings": {
+    "title": "ਸੈਟਿੰਗਜ਼",
+    "subtitle": "ਆਪਣੀਆਂ ਪਸੰਦਾਂ ਅਤੇ ਬੈਗ ਚੋਣਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ",
+
+    "general": "ਸਧਾਰਣ",
+    "account": "ਖਾਤਾ",
+    "about": "ਬਾਰੇ",
+    "appSecurity": "ਐਪ ਸੁਰੱਖਿਆ",
+
+    "modes": "ਮੋਡ",
+    "travelMode": "ਯਾਤਰਾ ਮੋਡ",
+    "lostMode": "ਖੋਇਆ ਮੋਡ",
+
+    "preferences": "ਪਸੰਦਾਂ",
+    "fingerprintManager": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮੈਨੇਜਰ",
+    "smartDisplay": "ਸਮਾਰਟ ਡਿਸਪਲੇ",
+    "notifications": "ਸੂਚਨਾਵਾਂ",
+    "languages": "ਭਾਸ਼ਾਵਾਂ",
+
+    "session": "ਸੈਸ਼ਨ",
+    "logout": "ਲਾੱਗ ਆਉਟ",
+
+    "notConnectedTitle": "ਕੁਨੈਕਟ ਨਹੀਂ",
+    "notConnectedBody": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਬੈਗ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ।",
+    "cmdFailedTitle": "ਕਮਾਂਡ ਅਸਫਲ",
+    "cmdFailedBody": "ਜੰਤਰ ਨੂੰ ਕਮਾਂਡ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ।",
+
+    "confirmSignOutTitle": "ਲਾੱਗ ਆਉਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "confirmSignOutBody": "ਕੀ ਤੁਸੀਂ ਪੱਕੇ ਹੋ ਕਿ ਤੁਸੀਂ ਲਾੱਗ ਆਉਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "signOut": "ਲਾੱਗ ਆਉਟ",
+
+    "lostModeOn": "ਤੁਹਾਡੇ ਬੈਗ 'ਤੇ ਖੋਇਆ ਮੋਡ ਚਾਲੂ ਹੋ ਗਿਆ ਹੈ।",
+    "lostModeOff": "ਖੋਇਆ ਮੋਡ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।",
+
+    "fingerprintStartedTitle": "ਫਿੰਗਰਪ੍ਰਿੰਟ",
+    "fingerprintStartedBody": "ਤੁਹਾਡੇ ਬੈਗ 'ਤੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਇੰਰੋਲਮੈਂਟ ਸ਼ੁਰੂ ਹੋ ਗਿਆ ਹੈ।",
+    "requireFaceId": "ਫੇਸ ਆਈਡੀ ਲੋੜੀਂਦਾ ਹੈ",
+    "turnOffTitle": "ਫੇਸ ਆਈਡੀ ਬੰਦ ਕਰਨਾ ਹੈ?",
+    "turnOffBody": "ਫੇਸ ਆਈਡੀ ਬੰਦ ਕਰਨ ਨਾਲ ਤੁਹਾਡੇ ਐਪ ਦੀ ਬਾਇਓਮੈਟਰਿਕ ਸੁਰੱਖਿਆ ਹਟਾ ਦਿੱਤੀ ਜਾਵੇਗੀ।",
+    "turnOff": "ਬੰਦ ਕਰੋ",
+    "fingerprintSuccessTitle": "ਸਫਲਤਾ",
+    "fingerprintSuccessBody": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਸਫਲਤਾਪੂਰਵਕ ਰਜਿਸਟਰ ਹੋ ਗਿਆ ਹੈ।"
+  },
+
+  "languages": {
+    "title": "ਭਾਸ਼ਾਵਾਂ",
+    "subtitle": "ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ",
+    "choose": "ਭਾਸ਼ਾ ਚੁਣੋ",
+    "savedHint": "(ਇਸ ਜੰਤਰ 'ਤੇ ਸੰਭਾਲਿਆ ਗਿਆ। ਅਸੀਂ ਬਾਅਦ ਵਿੱਚ ਪੂਰੇ ਐਪ ਵਿੱਚ ਜੋੜਾਂਗੇ।)"
+  },
+
+  "fingerprintManager": {
+    "title": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮੈਨੇਜਰ",
+    "emptyTitle": "ਕੋਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ",
+    "emptyBody": "ਆਪਣੇ ਬੈਗ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਅਨਲੌਕ ਕਰਨ ਲਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਜੋੜੋ।",
+    "addFingerprint": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਜੋੜੋ",
+
+    "fingerLabel": "ਉਂਗਲ 1",
+    "rename": "ਨਾਂ ਬਦਲੋ",
+    "delete": "ਮਿਟਾਓ",
+
+    "renameTitle": "ਉਂਗਲ ਦਾ ਨਾਂ ਬਦਲੋ",
+    "renameBody": "ਇਸ ਫਿੰਗਰਪ੍ਰਿੰਟ ਲਈ ਦੋਸਤਾਨਾ ਨਾਂ ਰੱਖੋ।",
+    "namePlaceholder": "ਉਦਾਹਰਣ: ਸੱਜਾ ਅੰਗੂਠਾ",
+    "save": "ਸੰਭਾਲੋ",
+
+    "confirmDeleteTitle": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮਿਟਾਓ?",
+    "confirmDeleteBody": "ਇਹ ਤੁਹਾਡੇ ਬੈਗ ਤੋਂ ਸੰਭਾਲਿਆ ਫਿੰਗਰਪ੍ਰਿੰਟ ਹਟਾ ਦੇਵੇਗਾ।",
+    "confirm": "ਮਿਟਾਓ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+
+    "toastRenamed": "ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+    "toastDeleted": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮਿਟਾਇਆ ਗਿਆ"
+  },
+  "smartDisplay": {
+    "title": "ਸਮਾਰਟ ਡਿਸਪਲੇ",
+    "subtitle": "ਆਪਣੇ E-Ink ਬੈਗ ਡਿਸਪਲੇ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ",
+
+    "modeTitle": "ਕੀ ਵਿਖਾਉਣਾ ਹੈ ਚੁਣੋ",
+    "showLogo": "ਲੋਗੋ ਵਿਖਾਓ",
+    "showText": "ਨਿੱਜੀ ਟੈਕਸਟ ਵਿਖਾਓ",
+    "showImage": "ਚਿੱਤਰ ਵਿਖਾਓ",
+    "leaveBlank": "ਖਾਲੀ ਛੱਡੋ",
+
+    "enterText": "ਡਿਸਪਲੇ ਟੈਕਸਟ ਦਰਜ ਕਰੋ",
+    "placeholder": "ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ...",
+    "preview": "ਪੂਰਵ ਦਰਸ਼ਨ",
+    "previewHint": "ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਇੱਥੇ ਵੇਖਾਇਆ ਜਾਵੇਗਾ",
+    "previewImageHint": "ਤੁਹਾਡੀ ਤਸਵੀਰ ਇੱਥੇ ਵੇਖਾਈ ਜਾਵੇਗੀ",
+
+    "chooseImage": "ਤਸਵੀਰ ਚੁਣੋ",
+    "chooseImageBtn": "ਤਸਵੀਰ ਚੁਣੋ",
+
+    "updateBtn": "ਡਿਸਪਲੇ ਅੱਪਡੇਟ ਕਰੋ",
+
+    "requiredTitle": "ਟੈਕਸਟ ਲੋੜੀਂਦਾ ਹੈ",
+    "requiredBody": "ਕਿਰਪਾ ਕਰਕੇ ਵਿਖਾਉਣ ਲਈ ਕੁਝ ਟੈਕਸਟ ਦਰਜ ਕਰੋ।",
+
+    "savedTitle": "ਅੱਪਡੇਟ ਹੋਇਆ",
+    "savedBody": "ਤੁਹਾਡਾ ਡਿਸਪਲੇ ਅੱਪਡੇਟ ਹੋ ਗਿਆ ਹੈ।",
+
+    "errorTitle": "ਅੱਪਡੇਟ ਅਸਫਲ",
+    "errorBody": "ਕਿਰਪਾ ਕਰਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+
+    "alreadyAppliedHint": "ਕੋਈ ਬਦਲਾਅ ਨਹੀਂ ਮਿਲੇ — ਮੁੜ OffStrap ਨੂੰ ਭੇਜਣ ਲਈ ਅੱਪਡੇਟ ਦਬਾਓ।",
+
+    "limitHint": "ਵੱਧ ਤੋਂ ਵੱਧ ਲੰਬਾਈ = 50 ਅੱਖਰ"
+  },
+
+  "dashboard": {
+    "network": "ਨੈੱਟਵਰਕ",
+    "noSignal": "• ਕੋਈ ਸਿਗਨਲ ਨਹੀਂ",
+    "bluetooth": "ਬਲੂਟੂਥ",
+    "connected": "ਕੁਨੈਕਟ ਕੀਤਾ ਗਿਆ",
+    "disconnected": "ਡਿਸਕੁਨੈਕਟ ਕੀਤਾ ਗਿਆ",
+
+    "locked": "ਲੌਕ ਕੀਤਾ",
+    "unlocked": "ਅਨਲੌਕ ਕੀਤਾ",
+    "track": "ਟ੍ਰੈਕ",
+    "alarm": "ਅਲਾਰਮ",
+    "alarmOff": "ਅਲਾਰਮ ਬੰਦ",
+    "bagHub": "ਬੈਗ ਹੱਬ",
+    "settings": "ਸੈਟਿੰਗਜ਼",
+
+    "connectingTitle": "ਜੁੜ ਰਿਹਾ ਹੈ…",
+    "connectingBody": "ਤੁਹਾਡੇ ਬੈਗ ਨਾਲ ਜੁੜ ਰਿਹਾ ਹੈ; ਕਿਰਪਾ ਕਰਕੇ ਥੋੜ੍ਹੀ ਦੇਰ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "notConnectedTitle": "ਕੁਨੈਕਟ ਨਹੀਂ",
+    "notConnectedBody": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਬੈਗ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ।",
+    "cmdFailedTitle": "ਕਮਾਂਡ ਅਸਫਲ",
+    "cmdFailedBody": "ਜੰਤਰ ਨੂੰ ਕਮਾਂਡ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ।"
+  },
+
+  "account": {
+    "title": "ਖਾਤਾ",
+    "subtitle": "ਆਪਣੀ ਪ੍ਰੋਫਾਈਲ ਅਤੇ ਸਾਈਨ-ਇਨ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ",
+
+    "profile": "ਪ੍ਰੋਫਾਈਲ",
+    "firstName": "ਪਹਿਲਾ ਨਾਂ",
+    "firstNamePlaceholder": "ਆਪਣਾ ਨਾਂ ਦਰਜ ਕਰੋ",
+
+    "lastName": "ਅੰਤਿਮ ਨਾਂ",
+    "lastNamePlaceholder": "ਆਪਣਾ ਅੰਤਿਮ ਨਾਂ ਦਰਜ ਕਰੋ",
+
+    "phone": "ਫੋਨ",
+    "phonePlaceholder": "ਫੋਨ ਨੰਬਰ",
+
+    "linkedSignin": "ਲਿੰਕ ਕੀਤਾ ਸਾਈਨ-ਇਨ",
+    "tapToSwitch": "ਸਵਿੱਚ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ (ਡੈਮੋ)",
+
+    "saveChanges": "ਬਦਲਾਅ ਸੰਭਾਲੋ",
+    "savedTitle": "ਸੰਭਾਲਿਆ ਗਿਆ",
+    "savedBody": "ਤੁਹਾਡੀ ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕੀਤੀ ਗਈ ਹੈ।",
+    "errorTitle": "ਗਲਤੀ",
+    "errorBody": "ਤੁਹਾਡੇ ਬਦਲਾਅ ਸੰਭਾਲਣ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  },
+
+  "about": {
+    "title": "ਬਾਰੇ",
+    "subtitle": "OffStrap ਬਾਰੇ ਜਾਣੋ",
+
+    "applicationDetails": "ਐਪਲੀਕੇਸ਼ਨ ਵੇਰਵੇ",
+    "appNameLabel": "ਐਪਲੀਕੇਸ਼ਨ ਨਾਂ",
+    "appName": "OffStrap ਕਨੇਕਟ",
+    "appVersionLabel": "ਐਪ ਵਰਜਨ",
+    "appVersion": "1.3",
+    "hwVersionLabel": "ਹਾਰਡਵੇਅਰ ਵਰਜਨ",
+    "hwVersion": "Trail Series 1.0",
+    "releaseDateLabel": "ਜਾਰੀ ਕਰਨ ਦੀ ਮਿਤੀ",
+    "releaseDate": "ਜੁਲਾਈ 2025",
+    "developerLabel": "ਡਿਵੈਲਪਰ",
+    "developer": "ਸਮਾਰਟ ਸਟਰੈਪ ਟੈਕਨੋਲੋਜੀਜ਼ ਪ੍ਰਾਈਵੇਟ ਲਿਮਿਟਡ.",
+    "officialContactLabel": "ਅਧਿਕਾਰਕ ਸੰਪਰਕ",
+    "officialContact": "info@offstrap.com",
+
+    "systemOverview": "ਸਿਸਟਮ ਝਲਕ",
+    "systemOverviewP1": "OffStrap ਕਨੇਕਟ OffStrap ਦੀ ਸਮਾਰਟ ਯਾਤਰਾ ਗੀਅਰ ਲਾਈਨ ਲਈ ਸਰਕਾਰੀ ਸਾਥੀ ਐਪ ਹੈ...",
+    "systemOverviewP2": "ਇਹ ਐਪ ਸਿਰਫ਼ ਅਧਿਕਾਰਤ OffStrap ਹਾਰਡਵੇਅਰ ਲਈ ਬਣਾਇਆ ਗਿਆ ਹੈ...",
+
+    "keyFeatures": "ਮੁੱਖ ਫੀਚਰ (v1.3)",
+    "featSmartUnlockingTitle": "ਸਮਾਰਟ ਅਨਲੌਕਿੰਗ",
+    "featSmartUnlockingBody": "• ਐਪ ਤੋਂ ਅਨਲੌਕ ਕਰੋ\n• ਬੈਗ ਦੇ ਇੰਟੀਗ੍ਰੇਟਿਡ ਸੈਂਸਰ ਰਾਹੀਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਐਕਸੈਸ",
+    "featLocationTitle": "ਸਥਾਨ ਅਤੇ ਨੇੜਤਾ",
+    "featLocationBody": "• ਆਨਬੋਰਡ SIM ਰਾਹੀਂ ਲਾਈਵ GPS ਟ੍ਰੈਕਿੰਗ\n• ਬਲੂਟੂਥ ਨੇੜਤਾ ਅਲਰਟ\n• ਖੋਇਆ ਮੋਡ\n• ਤੁਰੰਤ ਟ੍ਰੈਕ",
+    "featTravelModeTitle": "ਯਾਤਰਾ ਮੋਡ",
+    "featTravelModeBody": "• ਯਾਤਰਾ ਦੌਰਾਨ ਕੁਨੈਕਟਿਵਟੀ ਅਤੇ ਬਿਜਲੀ ਦੀ ਵਰਤੋਂ ਅਨੁਕੂਲ ਬਣਾਉਂਦਾ ਹੈ\n• ਗੈਰ-ਜ਼ਰੂਰੀ ਸੈਂਸਰ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਬੰਦ ਕਰਦਾ ਹੈ",
+    "featSecurityTitle": "ਸੁਰੱਖਿਆ ਅਤੇ ਅਲਰਟ",
+    "featSecurityBody": "• ਬਾਇਓਮੈਟ੍ਰਿਕ ਜਾਂ ਪਾਸਕੋਡ ਰਾਹੀਂ ਐਪ ਐਕਸੈਸ ਕੰਟਰੋਲ\n• ਗੈਰ-ਸਰਗਰਮੀ ਤੋਂ ਬਾਅਦ ਆਟੋ-ਲੌਕ\n• ਛੇੜਛਾੜ, ਘੱਟ ਬੈਟਰੀ ਅਤੇ ਅਸਧਾਰਣ ਗਤੀਵਿਧੀ ਲਈ ਸੂਚਨਾਵਾਂ",
+    "featNotificationsTitle": "ਸੂਚਨਾ ਪ੍ਰਬੰਧਨ",
+    "featNotificationsBody": "• ਅਲਰਟ ਸ਼੍ਰੇਣੀਆਂ ਚਾਲੂ/ਬੰਦ ਕਰੋ\n• ਬੈਟਰੀ, ਸਥਾਨ ਅਤੇ ਅਨਲੌਕ ਚੇਤਾਵਨੀਆਂ ਲਈ ਸੀਮਾਵਾਂ ਸੈੱਟ ਕਰੋ",
+
+    "customerSupport": "ਗਾਹਕ ਸਹਾਇਤਾ",
+    "supportP1": "ਕੀ ਤੁਹਾਨੂੰ ਆਪਣੇ ਬੈਗ ਦੀ ਸੈਟਿੰਗ, ਬੱਗ ਦੀ ਰਿਪੋਰਟ ਜਾਂ ਕੁਨੈਕਟਿਵਟੀ ਦੀ ਸਮੱਸਿਆ ਵਿੱਚ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?",
+    "supportEmailLabel": "ਈਮੇਲ",
+    "supportSlaLabel": "ਆਮ ਜਵਾਬ ਸਮਾਂ",
+    "supportSla": "24 ਕਾਰੋਬਾਰੀ ਘੰਟਿਆਂ ਵਿੱਚ",
+
+    "disclaimer": "ਜਿੰਮੇਵਾਰੀ ਅਸਵੀਕਰਤੀ",
+    "disclaimerP1": "OffStrap ਕਨੇਕਟ ਤੁਹਾਡੇ ਸਾਮਾਨ ਦੀ ਸੁਰੱਖਿਆ ਅਤੇ ਉਪਯੋਗਿਤਾ ਵਧਾਉਣ ਲਈ ਬਣਾਇਆ ਗਿਆ ਹੈ...",
+    "disclaimerP2": "ਸਮਾਰਟ ਸਟਰੈਪ ਟੈਕਨੋਲੋਜੀਜ਼ ਪ੍ਰਾਈਵੇਟ ਲਿਮਿਟਡ ਬੈਗਾਂ ਜਾਂ ਨਿੱਜੀ ਸੰਪਤੀ ਦੇ ਨੁਕਸਾਨ ਲਈ ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ...",
+    "disclaimerP3": "ਐਪ ਪਿੱਛੇ GPS ਅਤੇ ਬਲੂਟੂਥ ਵਰਤ ਸਕਦੀ ਹੈ...",
+
+    "license": "ਲਾਇਸੈਂਸ ਅਤੇ ਬੌਧਿਕ ਸੰਪਤੀ",
+    "licenseBody": "ਸਾਰੇ ਐਪਲੀਕੇਸ਼ਨ ਸਮੱਗਰੀ... ਬਿਨਾਂ ਅਨੁਮਤੀ ਨਕਲ ਮਨਾਹੀ ਹੈ।",
+
+    "updates": "ਅੱਪਡੇਟ",
+    "updatesBody": "ਅਸੀਂ ਨਿਯਮਿਤ ਅੱਪਡੇਟ ਭੇਜਦੇ ਹਾਂ। ਆਪਣਾ ਐਪ ਅਤੇ ਬੈਗ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ ਰੱਖੋ।"
+  },
+
+  "security": {
+    "title": "ਐਪ ਸੁਰੱਖਿਆ",
+    "subtitle": "{{method}} ਨਾਲ ਐਪ ਲੌਕ ਕਰੋ",
+
+    "cardTitle": "ਐਪ ਲੌਕ",
+    "require": "{{method}} ਲੋੜੀਂਦਾ ਹੈ",
+
+    "unavailableTitle": "ਉਪਲਬਧ ਨਹੀਂ",
+    "unavailableBody": "ਇਸ ਜੰਤਰ 'ਤੇ ਬਾਇਓਮੈਟ੍ਰਿਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+
+    "enabledTitle": "ਐਪ ਲੌਕ",
+    "enabledBody": "{{method}} ਚਾਲੂ ਹੈ। ਤੁਹਾਨੂੰ ਲਾਂਚ 'ਤੇ ਪੁੱਛਿਆ ਜਾਵੇਗਾ।",
+
+    "turnOffTitle": "ਐਪ ਲੌਕ ਬੰਦ ਕਰੋ?",
+    "turnOffBody": "ਤੁਹਾਨੂੰ ਲਾਂਚ 'ਤੇ ਪੁੱਛਿਆ ਨਹੀਂ ਜਾਵੇਗਾ।",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "turnOff": "ਬੰਦ ਕਰੋ",
+
+    "hint": "ਜਦੋਂ ਚਾਲੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਐਪ {{method}} ਮੰਗਦਾ ਹੈ।"
+  },
+
+  "fpManager": {
+    "title": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮੈਨੇਜਰ",
+    "subtitle": "ਆਪਣੀ ਉਂਗਲ ਦਾ ਨਾਂ ਬਦਲੋ ਜਾਂ ਮਿਟਾਓ।",
+    "defaultFingerName": "ਉਂਗਲ 1",
+
+    "add": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਜੋੜੋ",
+    "rename": "ਨਾਂ ਬਦਲੋ",
+    "delete": "ਮਿਟਾਓ",
+
+    "confirmDeleteTitle": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮਿਟਾਓ",
+    "confirmDeleteBody": "ਇਹ ਬੈਗ ਤੋਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਹਟਾ ਦੇਵੇਗਾ।",
+    "confirm": "ਮਿਟਾਓ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+
+    "doneTitle": "ਮਿਟਾਇਆ ਗਿਆ",
+    "deletedBody": "ਫਿੰਗਰਪ੍ਰਿੰਟ ਮਿਟਾਇਆ ਗਿਆ ਹੈ।",
+
+    "renameTitle": "ਉਂਗਲ ਦਾ ਨਾਂ ਬਦਲੋ",
+    "enterName": "ਨਾਂ ਦਰਜ ਕਰੋ",
+    "save": "ਸੰਭਾਲੋ",
+
+    "notConnectedTitle": "ਕੁਨੈਕਟ ਨਹੀਂ",
+    "notConnectedBody": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਬੈਗ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ।",
+    "cmdFailedTitle": "ਕਮਾਂਡ ਅਸਫਲ",
+    "cmdFailedBody": "ਜੰਤਰ ਨੂੰ ਕਮਾਂਡ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ।"
+  },
+
+  "notifications": {
+  "title": "ਸੂਚਨਾਵਾਂ",
+  "subtitle": "ਚੇਤਾਵਨੀਆਂ ਅਤੇ ਮਿਊਟ ਸੰਰਚਨਾ ਕਰੋ",
+
+  "alertPrefs": "ਚੇਤਾਵਨੀ ਪਸੰਦਾਂ",
+
+  "notifyBleDisconnect": "ਬਲੂਟੂਥ ਡਿਸਕਨੈਕਟ ਹੋਣ 'ਤੇ ਸੂਚਿਤ ਕਰੋ",
+  "notifyBleDisconnectSub": "ਜਦੋਂ ਤੁਹਾਡਾ ਫੋਨ OffStrap ਨਾਲ ਕਨੈਕਸ਼ਨ ਗੁਆ ਦੇਵੇ ਤਾਂ ਅਲਰਟ ਪ੍ਰਾਪਤ ਕਰੋ",
+
+  "bleDelay": "ਕਦੋਂ ਸੂਚਿਤ ਕਰਨਾ ਹੈ",
+  "bleDelaySub": "ਡਿਸਕਨੈਕਟ ਤੋਂ ਬਾਅਦ ਸੂਚਿਤ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿੰਨਾ ਸਮਾਂ ਉਡੀਕਣਾ ਹੈ",
+
+  "tamperThreshold": "ਛੇੜਛਾੜ ਅਲਰਟ ਸੀਮਾ",
+  "tamperThresholdSub": "ਜਦੋਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਮਿਸਮੈਚ ਇਸ ਗਿਣਤੀ 'ਤੇ ਪਹੁੰਚਦਾ ਹੈ ਤਾਂ ਸੂਚਿਤ ਕਰੋ",
+
+  "muteTitle": "ਸੂਚਨਾਵਾਂ ਮਿਊਟ ਕਰੋ",
+  "mute": {
+    "8h": "8 ਘੰਟੇ",
+    "24h": "24 ਘੰਟੇ",
+    "1 week": "1 ਹਫ਼ਤਾ"
+  },
+
+  "tamperOptions": {
+    "3": "3 ਗਲਤ ਕੋਸ਼ਿਸ਼ਾਂ",
+    "5": "5 ਗਲਤ ਕੋਸ਼ਿਸ਼ਾਂ",
+    "10": "10 ਗਲਤ ਕੋਸ਼ਿਸ਼ਾਂ"
+  },
+
+  "savedTitle": "ਸੰਭਾਲਿਆ ਗਿਆ",
+  "savedBody": "ਤੁਹਾਡੀਆਂ ਸੂਚਨਾ ਪਸੰਦਾਂ ਸੰਭਾਲ ਲਈਆਂ ਗਈਆਂ ਹਨ।",
+  "nearBagTitle": "OffStrap ਨੇੜੇ ਨਹੀਂ ਹੈ",
+  "nearBagBody": "ਬਦਲਾਅ ਸੰਭਾਲੇ ਗਏ ਹਨ, ਪਰ ਉਨ੍ਹਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ OffStrap ਬਲੂਟੂਥ ਨਾਲ ਕਨੈਕਟ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ।",
+  "saveErrorTitle": "ਸੰਭਾਲ ਨਹੀਂ ਸਕੇ",
+  "saveErrorBody": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+
+  "bleTitle": "ਬਲੂਟੂਥ ਡਿਸਕਨੈਕਟ ਹੋ ਗਿਆ",
+  "bleBody": "ਤੁਹਾਡੇ ਫੋਨ ਨੇ OffStrap ਨਾਲ ਕਨੈਕਸ਼ਨ ਗੁਆ ਦਿੱਤਾ ਹੈ।",
+  "tamperTitle": "ਛੇੜਛਾੜ ਚੇਤਾਵਨੀ",
+  "tamperBody": "ਕਈ ਅਸਫਲ ਫਿੰਗਰਪ੍ਰਿੰਟ ਕੋਸ਼ਿਸ਼ਾਂ ਮਿਲੀਆਂ।",
+
+  "testNow": "ਟੈਸਟ ਸੂਚਨਾ ਭੇਜੋ"
+},
+  "bagHub": {
+    "title": "ਬੈਗ ਹੱਬ",
+    "subtitle": "ਆਪਣੇ ਕੁਨੈਕਟ ਬੈਗਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ",
+    "addOffstrap": "ਇੱਕ Offstrap ਜੋੜੋ"
+  }
+}

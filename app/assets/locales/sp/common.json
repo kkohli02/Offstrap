@@ -1,0 +1,307 @@
+{
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Gestiona tus preferencias y opciones del bolso",
+
+    "general": "General",
+    "account": "Cuenta",
+    "about": "Acerca de",
+    "appSecurity": "Seguridad de la app",
+
+    "modes": "Modos",
+    "travelMode": "Modo viaje",
+    "lostMode": "Modo perdido",
+
+    "preferences": "Preferencias",
+    "fingerprintManager": "Administrador de huellas",
+    "smartDisplay": "Pantalla inteligente",
+    "notifications": "Notificaciones",
+    "languages": "Idiomas",
+
+    "session": "Sesión",
+    "logout": "Cerrar sesión",
+
+    "notConnectedTitle": "Sin conexión",
+    "notConnectedBody": "Conecta primero tu bolso.",
+    "cmdFailedTitle": "Comando fallido",
+    "cmdFailedBody": "No se pudo enviar el comando al dispositivo.",
+
+    "confirmSignOutTitle": "Confirmar cierre de sesión",
+    "confirmSignOutBody": "¿Seguro que quieres cerrar sesión?",
+    "cancel": "Cancelar",
+    "signOut": "Cerrar sesión",
+
+    "lostModeOn": "El modo perdido se ha activado en tu bolso.",
+    "lostModeOff": "El modo perdido se ha desactivado.",
+
+    "fingerprintStartedTitle": "Huella dactilar",
+    "fingerprintStartedBody": "Se inició el registro de huella en tu bolso.",
+    "requireFaceId": "Requerir Face ID",
+    "turnOffTitle": "¿Desactivar Face ID?",
+    "turnOffBody": "Al desactivar Face ID se eliminará la protección biométrica de tu aplicación.",
+    "turnOff": "Desactivar",
+    "fingerprintSuccessTitle": "Éxito",
+    "fingerprintSuccessBody": "Huella digital registrada correctamente."
+  },
+
+  "languages": {
+    "title": "Idiomas",
+    "subtitle": "Elige tu idioma preferido",
+    "choose": "Elegir idioma",
+    "savedHint": "(Guardado en este dispositivo. Más adelante lo conectaremos a toda la app)."
+  },
+
+  "fingerprintManager": {
+    "title": "Administrador de huellas",
+    "emptyTitle": "No hay huellas guardadas",
+    "emptyBody": "Añade una huella para desbloquear tu bolso más rápido.",
+    "addFingerprint": "Añadir una huella",
+
+    "fingerLabel": "Dedo 1",
+    "rename": "Renombrar",
+    "delete": "Eliminar",
+
+    "renameTitle": "Renombrar dedo",
+    "renameBody": "Asigna un nombre fácil de recordar a esta huella.",
+    "namePlaceholder": "p. ej., Pulgar derecho",
+    "save": "Guardar",
+
+    "confirmDeleteTitle": "¿Eliminar huella?",
+    "confirmDeleteBody": "Esto borrará la huella guardada de tu bolso.",
+    "confirm": "Eliminar",
+    "cancel": "Cancelar",
+
+    "toastRenamed": "Nombre actualizado",
+    "toastDeleted": "Huella eliminada"
+  },
+  "smartDisplay": {
+    "title": "Pantalla inteligente",
+    "subtitle": "Personaliza la pantalla E-Ink de tu bolso",
+
+    "modeTitle": "Elige qué mostrar",
+    "showLogo": "Mostrar logotipo",
+    "showText": "Mostrar texto personalizado",
+    "showImage": "Mostrar imagen",
+    "leaveBlank": "Dejar en blanco",
+
+    "enterText": "Introduce el texto a mostrar",
+    "placeholder": "Escribe tu mensaje...",
+    "preview": "Vista previa",
+    "previewHint": "Tu mensaje aparecerá aquí",
+    "previewImageHint": "Tu imagen aparecerá aquí",
+
+    "chooseImage": "Elegir imagen",
+    "chooseImageBtn": "Elegir imagen",
+
+    "updateBtn": "Actualizar pantalla",
+
+    "requiredTitle": "Se requiere texto",
+    "requiredBody": "Introduce algún texto para mostrar.",
+
+    "savedTitle": "Actualizado",
+    "savedBody": "Tu pantalla ha sido actualizada.",
+
+    "errorTitle": "Error al actualizar",
+    "errorBody": "Inténtalo de nuevo.",
+
+    "alreadyAppliedHint": "No se detectaron cambios — pulsa Actualizar para reenviar a tu OffStrap.",
+
+    "limitHint": "Longitud máxima = 50 caracteres"
+  },
+
+  "dashboard": {
+    "network": "Red",
+    "noSignal": "• Sin señal",
+    "bluetooth": "Bluetooth",
+    "connected": "Conectado",
+    "disconnected": "Desconectado",
+
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "track": "Rastrear",
+    "alarm": "Alarma",
+    "alarmOff": "Alarma desactivada",
+    "bagHub": "Centro de bolsas",
+    "settings": "Configuración",
+
+    "connectingTitle": "Conectando…",
+    "connectingBody": "Conectando a tu bolso; vuelve a intentarlo en un momento.",
+    "notConnectedTitle": "Sin conexión",
+    "notConnectedBody": "Conecta primero tu bolso.",
+    "cmdFailedTitle": "Comando fallido",
+    "cmdFailedBody": "No se pudo enviar el comando al dispositivo."
+  },
+
+
+  "account": {
+    "title": "Cuenta",
+    "subtitle": "Gestiona tu perfil e inicio de sesión",
+
+    "profile": "Perfil",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Introduce tu nombre",
+
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Introduce tu apellido",
+
+    "phone": "Teléfono",
+    "phonePlaceholder": "Número de teléfono",
+
+    "linkedSignin": "Inicio de sesión vinculado",
+    "tapToSwitch": "Toca para cambiar (demo)",
+
+    "saveChanges": "Guardar cambios",
+    "savedTitle": "Guardado",
+    "savedBody": "Tu perfil ha sido actualizado.",
+    "errorTitle": "Error",
+    "errorBody": "No se pudieron guardar los cambios. Inténtalo de nuevo."
+  },
+
+  "about": {
+    "title": "Acerca de",
+    "subtitle": "Conoce OffStrap",
+
+    "applicationDetails": "Detalles de la aplicación",
+    "appNameLabel": "Nombre de la aplicación",
+    "appName": "OffStrap Connect",
+    "appVersionLabel": "Versión de la app",
+    "appVersion": "1.3",
+    "hwVersionLabel": "Versión de hardware",
+    "hwVersion": "Trail Series 1.0",
+    "releaseDateLabel": "Fecha de lanzamiento",
+    "releaseDate": "Julio de 2025",
+    "developerLabel": "Desarrollador",
+    "developer": "Smart Strap Technologies Pvt. Ltd.",
+    "officialContactLabel": "Contacto oficial",
+    "officialContact": "info@offstrap.com",
+
+    "systemOverview": "Descripción del sistema",
+    "systemOverviewP1": "OffStrap Connect es la app oficial complementaria para la línea OffStrap de equipaje inteligente. Establece un enlace seguro por Bluetooth y LTE con el equipaje certificado por OffStrap, brindándote control fiable, monitoreo en tiempo real y protección avanzada para tus pertenencias.",
+    "systemOverviewP2": "La app está diseñada exclusivamente para hardware autorizado de OffStrap. Los intentos de conectar dispositivos no compatibles, realizar ingeniería inversa del software o manipular el firmware o el hardware están prohibidos y anulan la garantía y la elegibilidad de servicio.",
+
+    "keyFeatures": "Funciones clave (v1.3)",
+    "featSmartUnlockingTitle": "Desbloqueo inteligente",
+    "featSmartUnlockingBody": "• Desbloqueo desde la app\n• Acceso por huella mediante el sensor integrado del bolso",
+    "featLocationTitle": "Ubicación y proximidad",
+    "featLocationBody": "• Rastreo GPS en vivo mediante módulo SIM integrado\n• Alertas de proximidad por Bluetooth\n• Modo perdido con pings de mayor frecuencia\n• Acción rápida “Rastrear” para obtener ubicación inmediata",
+    "featTravelModeTitle": "Modo viaje",
+    "featTravelModeBody": "• Optimiza la conectividad y el consumo de energía durante el tránsito\n• Desactiva temporalmente sensores no esenciales para viajes largos",
+    "featSecurityTitle": "Seguridad y alertas",
+    "featSecurityBody": "• Control de acceso a la app mediante biometría o código\n• Bloqueo automático tras inactividad\n• Notificaciones por manipulación, batería baja y actividad inusual",
+    "featNotificationsTitle": "Gestión de notificaciones",
+    "featNotificationsBody": "• Activar/desactivar categorías de alertas\n• Establecer umbrales para batería, ubicación y avisos de desbloqueo",
+
+    "customerSupport": "Atención al cliente",
+    "supportP1": "¿Necesitas ayuda para configurar tu bolso, informar un error o resolver problemas de conectividad? Nuestro equipo está para ayudarte.",
+    "supportEmailLabel": "Correo electrónico",
+    "supportSlaLabel": "Tiempo de respuesta típico",
+    "supportSla": "Dentro de 24 horas hábiles",
+
+    "disclaimer": "Exención de responsabilidad",
+    "disclaimerP1": "OffStrap Connect está diseñada para mejorar la seguridad y usabilidad de tu equipaje. Aunque la app ofrece funciones de monitoreo y disuasión, ningún sistema puede garantizar la prevención de robos, accesos no autorizados o pérdidas de datos.",
+    "disclaimerP2": "Smart Strap Technologies Pvt. Ltd. no se hace responsable por pérdida, daño o robo de bolsos o bienes personales. El mal uso del hardware o software, incluidas manipulaciones, aperturas forzadas o modificaciones no autorizadas del firmware, anula la garantía y los compromisos de servicio.",
+    "disclaimerP3": "La app puede usar GPS y Bluetooth en segundo plano. Su uso continuo puede afectar la batería del dispositivo y del bolso. Solo recopilamos los datos mínimos necesarios para el emparejamiento y diagnósticos esenciales. Para más detalles, consulta nuestra Política de Privacidad.",
+
+    "license": "Licencia y propiedad intelectual",
+    "licenseBody": "Todo el contenido de la aplicación, incluidos la interfaz, íconos, protocolos de firmware y arquitectura de conectividad, es propiedad intelectual de Smart Strap Technologies Pvt. Ltd. Está prohibida la copia, distribución o ingeniería inversa sin autorización.",
+
+    "updates": "Actualizaciones",
+    "updatesBody": "Publicamos actualizaciones periódicas para mejorar el rendimiento y añadir funciones. Para la mejor experiencia, mantén actualizados la app y el firmware de tu bolso."
+  },
+
+  "security": {
+    "title": "Seguridad de la app",
+    "subtitle": "Bloquea la app con {{method}}",
+
+    "cardTitle": "Bloqueo de la app",
+    "require": "Requerir {{method}}",
+
+    "unavailableTitle": "No disponible",
+    "unavailableBody": "La autenticación biométrica no está disponible en este dispositivo.",
+
+    "enabledTitle": "Bloqueo de la app",
+    "enabledBody": "{{method}} habilitado. Se te solicitará al abrir/volver.",
+
+    "turnOffTitle": "¿Desactivar el bloqueo de la app?",
+    "turnOffBody": "No se te solicitará al abrir.",
+    "cancel": "Cancelar",
+    "turnOff": "Desactivar",
+
+    "hint": "Cuando está activado, la app solicita {{method}} al abrir y al volver desde segundo plano."
+  },
+
+  "fpManager": {
+    "title": "Administrador de huellas",
+    "subtitle": "Renombra o elimina tu dedo registrado. Si no tienes, añade uno.",
+    "defaultFingerName": "Dedo 1",
+
+    "add": "Añadir una huella",
+    "rename": "Renombrar",
+    "delete": "Eliminar",
+
+    "confirmDeleteTitle": "Eliminar huella",
+    "confirmDeleteBody": "Esto eliminará la huella registrada del bolso. ¿Continuar?",
+    "confirm": "Eliminar",
+    "cancel": "Cancelar",
+
+    "doneTitle": "Eliminado",
+    "deletedBody": "La huella dactilar ha sido eliminada.",
+
+    "renameTitle": "Renombrar dedo",
+    "enterName": "Introduce un nombre",
+    "save": "Guardar",
+
+    "notConnectedTitle": "Sin conexión",
+    "notConnectedBody": "Conecta primero tu bolso.",
+    "cmdFailedTitle": "Comando fallido",
+    "cmdFailedBody": "No se pudo enviar el comando al dispositivo."
+  },
+
+  "notifications": {
+  "title": "Notificaciones",
+  "subtitle": "Configura alertas y silencios",
+
+  "alertPrefs": "Preferencias de alerta",
+
+  "notifyBleDisconnect": "Notificar cuando se desconecte el Bluetooth",
+  "notifyBleDisconnectSub": "Recibe una alerta si tu teléfono pierde conexión con OffStrap",
+
+  "bleDelay": "Cuándo notificar",
+  "bleDelaySub": "Cuánto esperar antes de avisarte tras una desconexión",
+
+  "tamperThreshold": "Umbral de alerta de manipulación",
+  "tamperThresholdSub": "Notificar cuando los intentos fallidos de huella alcancen este número",
+
+  "muteTitle": "Silenciar notificaciones",
+  "mute": {
+    "8h": "8 horas",
+    "24h": "24 horas",
+    "1 week": "1 semana"
+  },
+
+  "tamperOptions": {
+    "3": "3 intentos fallidos",
+    "5": "5 intentos fallidos",
+    "10": "10 intentos fallidos"
+  },
+
+  "savedTitle": "Guardado",
+  "savedBody": "Tus preferencias de notificación se han guardado.",
+  "nearBagTitle": "OffStrap no está cerca",
+  "nearBagBody": "Los cambios se han guardado, pero necesitas estar cerca de tu OffStrap con Bluetooth para aplicarlos.",
+  "saveErrorTitle": "No se pudo guardar",
+  "saveErrorBody": "Inténtalo de nuevo.",
+
+  "bleTitle": "Bluetooth desconectado",
+  "bleBody": "Tu teléfono perdió la conexión con OffStrap.",
+  "tamperTitle": "Alerta de manipulación",
+  "tamperBody": "Se detectaron múltiples intentos fallidos de huella.",
+
+  "testNow": "Enviar notificación de prueba"
+},
+  "bagHub": {
+    "title": "Centro de bolsas",
+    "subtitle": "Gestiona tus bolsas conectadas",
+    "addOffstrap": "Añadir un OffStrap"
+  }
+}
